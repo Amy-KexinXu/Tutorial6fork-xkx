@@ -28,4 +28,11 @@ geom_point()
 grid.arrange(p1, p2)
 ```
 
+# New Figure
+```{r}
+ata <- data.frame(x = x, y = y ) # Creating a data frame
+p3 = ggplot(data, aes(x= x, y = y)) +
+geom_smooth()
+p3
+```
 
